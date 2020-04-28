@@ -85,9 +85,9 @@ links = mySite.getLinks()
 from alfpyclient.api.nodes import NodesAPI
 
 nodesApi = NodesAPI(client)
-companyHome = nodesAPI.getCompanyHome()
-sharedFiles = nodesAPI.getSharedFiles()
-myFiles = nodesAPI.getMyFiles()
+companyHome = NodesAPI.getCompanyHome()
+sharedFiles = NodesAPI.getSharedFiles()
+myFiles = NodesAPI.getMyFiles()
 
 # simple ID based lookup
 anyNode = nodesAPI.getNode('<id>')
