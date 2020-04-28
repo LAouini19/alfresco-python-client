@@ -84,7 +84,7 @@ links = mySite.getLinks()
 # optional import + lookup (unless reference to node already retrieved via other APIs, e.g. SitesAPI)
 from alfpyclient.api.nodes import NodesAPI
 
-nodesAAPI = NodesAPI(client)
+nodesAPI = NodesAPI(client)
 companyHome = nodesAPI.getCompanyHome()
 sharedFiles = nodesAPI.getSharedFiles()
 myFiles = nodesAPI.getMyFiles()
